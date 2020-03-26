@@ -1,0 +1,36 @@
+#formBox
+{
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+#form
+{
+  font-size: 1.3em;
+  width: 500px;
+  display: inline-block;
+}
+::placeholder
+{
+  font-size: 1.1em;
+  font-family: 'Nanum Brush Script', cursive;
+}
+#form button
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid rgb(109,109,109);
+	background-color: rgba(0,0,0,0);
+	padding: 5px;
+}
+#form button:hover
+{
+	color:white;
+	background-color: rgb(71,71,71);
+}
+table
+{
+	font-size: 0.8em;
+	margin-left: auto;
+	margin-right: auto;
+}

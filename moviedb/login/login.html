@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>LOGIN</title>
+		<link rel="stylesheet" href="../menubar.css" />
+		<link rel="stylesheet" href="form.css" />
+	</head>
+	<body>
+		<header>
+			<h1 align="center">MOVIE SEARCH</h1>
+			<div class="menubar">
+				<ul>
+					<li><a href="../Home.php">Home</a></li>
+					<li><a>한국영화</a>
+						<ul>
+							<li><a href="../posterList.php?cNum=1&gNum=1">액션</a></li>
+							<li><a href="../posterList.php?cNum=1&gNum=2">코미디</a></li>
+							<li><a href="../posterList.php?cNum=1&gNum=3">로맨스</a></li>
+							<li><a href="../posterList.php?cNum=1&gNum=4">SF&amp;판타지</a></li>
+							<li><a href="../posterList.php?cNum=1&gNum=5">범죄</a></li>
+							<li><a href="../posterList.php?cNum=1&gNum=6">스릴러</a></li>
+							<li><a href="../posterList.php?cNum=1&gNum=7">공포</a></li>
+							<li><a href="../posterList.php?cNum=1&gNum=8">다큐멘터리</a></li>
+							<li><a href="../posterList.php?cNum=1&gNum=9">기타</a></li>
+						</ul>
+					</li>
+					<li><a>외국영화</a>
+						<ul>
+							<li><a href="../posterList.php?cNum=2&gNum=1">액션</a></li>
+							<li><a href="../posterList.php?cNum=2&gNum=2">코미디</a></li>
+							<li><a href="../posterList.php?cNum=2&gNum=3">로맨스</a></li>
+							<li><a href="../posterList.php?cNum=2&gNum=4">SF&amp;판타지</a></li>
+							<li><a href="../posterList.php?cNum=2&gNum=5">범죄</a></li>
+							<li><a href="../posterList.php?cNum=2&gNum=6">스릴러</a></li>
+							<li><a href="../posterList.php?cNum=2&gNum=7">공포</a></li>
+							<li><a href="../posterList.php?cNum=2&gNum=8">다큐멘터리</a></li>
+							<li><a href="../posterList.php?cNum=2&gNum=9">기타</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<section>
+			<div id="formBox">
+				<div id="form">
+					<form action="login.php" method="post" enctype="multipart/form-data">
+						<fieldset>
+							<legend style="text-align: center">LOGIN</legend>
+							<input type="text" name="id" placeholder="Enter Your ID" required=""/>
+							<br>
+							<input type="password" name="pw" placeholder="Enter Your Password" required=""/>
+							<br>
+							<button type="submit" value="submit"><b>로그인</b></button>
+							<button type="button" onclick="location.href='signUpNew.php'"><b>회원가입</b></button>
+						</fieldset>
+					</form>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
